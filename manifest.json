@@ -1,0 +1,16 @@
+{
+    "name": "Kleinanzeigen Bilder",
+    "version": "1.0",
+    "description": "",
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab"
+      ],
+    "content_scripts": [{
+        "matches":    ["*://www.ebay-kleinanzeigen.de/*"],
+        "js":         ["bootstrap.js"],
+        "run_at": "document_end",
+        "all_frames": true
+    }]
+     
+  }
