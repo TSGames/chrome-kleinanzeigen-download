@@ -7,7 +7,7 @@
         "activeTab"
       ],
     "content_scripts": [{
-        "matches":    ["*://www.ebay-kleinanzeigen.de/*"],
+        "matches":    ["*://www.ebay-kleinanzeigen.de/*", "*://www.kleinanzeigen.de/*"],
         "js":         ["bootstrap.js"],
         "run_at": "document_end",
         "all_frames": true
